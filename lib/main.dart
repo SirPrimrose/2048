@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double gridWidth = (width - 160) / 4;
+    double gridWidth = (width - width * 0.15) / 4;
     double gridHeight = gridWidth;
     double height = 30 + (gridHeight * 4) + 10;
 

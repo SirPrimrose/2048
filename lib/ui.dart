@@ -205,7 +205,7 @@ class _TileState extends State<Tile> {
           child: new Text(
             widget.value.toString(),
             style: TextStyle(
-              fontSize: widget.value.toString().length <= 2 ? 60.0 : widget.value.toString().length <= 4 ? 50.0 : 40.0,
+              fontSize: widget.value.toString().length <= 2 ? 40.0 : widget.value.toString().length <= 4 ? 30.0 : 20.0,
               color: Color(GameColors.tileFontColor),
             ),
           ),
